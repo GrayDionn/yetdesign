@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="yetdesign.css">
+</head>
+<body>
+
+<div class="header">
+
+  <img src="Images/yetlogo.png" alt="Yet Analytics Logo" >
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" >Home</a>
+    <a href="#news">Products</a>
+    <a href="#contact">Solutions</a>
+    <a href="#about">Research</a>
+    <a href="#about">Experience API</a>
+    <a href="#about">Team</a>
+    <a href="#about">News</a>
+    <a href="#about">Login</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+</div>
+
+<div class = "mainbanner">
+<img src="Images/topborder.png">
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</body>
+</html>

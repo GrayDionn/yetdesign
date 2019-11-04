@@ -1,0 +1,77 @@
+body{
+  margin:0px;
+}
+
+.header {
+height:30px;
+display:flex;
+width: 100%;
+margin:60px 20px 20px 20px;
+position: relative;
+
+}
+
+.header img{
+height: 100%;
+margin-right: 60px;
+}
+
+#myTopnav{
+  position: absolute;
+      right: 20px;
+
+}
+
+#myTopnav a{
+  margin-left:20px;
+  color: #067A6A;
+  text-decoration: none;
+  margin-left:10px;
+  font-family: sans-serif;
+  padding:5px 10px;
+  font-size:10px;
+  transition-duration: .3s;
+}
+
+#myTopnav a:hover{
+  background-color: #E4FFFB;
+  transition-duration: .3s;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.mainbanner {
+  width:100%;
+  margin-left: -5px;
+}
+
+.mainbanner img{
+  width:101%;
+  margin-top:50px;
+}
+
+@media screen and (max-width: 750px) {
+  .topnav a{
+  display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
