@@ -135,6 +135,12 @@ button img{
   margin: 0px 70px;
 }
 
+.mainSectionTwo img{
+  width: 90%;
+  float: right;
+  margin-top: 70px;
+}
+
 
 
 @media screen and (max-width: 900px) {
