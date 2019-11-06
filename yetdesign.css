@@ -186,6 +186,7 @@ button img{
   color: #DB3762;
   font-weight: 600;
   margin-left: -20px;
+  text-decoration: none;
 }
 
 .mainSectionTwo img{
@@ -262,7 +263,9 @@ BOTTOM: 50PX;
     margin: -5%;
 }
 
-
+.flexScroll{
+  margin-left:10px;
+}
 
 .flexScroll div{
   display: inline-block;
@@ -351,6 +354,21 @@ margin-left: 40px;
     float: right;
     display: block;
   }
+}
+
+@media screen and (min-width:900px){
+.textArea{
+  width:40%;
+  float:right;
+  padding-right: 10%;
+}
+  /* .mainSectionTwo{
+    display:flex;
+
+  }
+  .mainSectionTwo img{
+    margin-top:150px;
+  } */
 }
 
 @media screen and (max-width: 900px) {
