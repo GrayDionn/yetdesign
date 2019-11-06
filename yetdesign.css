@@ -275,7 +275,14 @@ BOTTOM: 50PX;
   margin-top:200px;
       padding: 0px 30px 70px 30px;
       display:flex;
+      position:relative;
+}
 
+.footer #footerborder{
+  width:100%;
+  position: absolute;
+    bottom: 519px;
+    margin-left: -40px;
 }
 
 .footer img{
