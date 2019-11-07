@@ -269,6 +269,10 @@ margin:20px 20px 0px 0px;
 overflow: auto;
 }
 
+.textcenter{
+  text-align: center;
+}
+
 .boldRedText{
   right: 20px;
     font-family:  Helvetica, sans-serif;;
@@ -294,7 +298,8 @@ BOTTOM: 50PX;
 }
 
 .flexScroll{
-  margin-left:10px;
+  margin-left: 5%;
+margin-right: 5%;
 }
 
 .flexScroll div{
@@ -419,6 +424,16 @@ padding-right: 20px;
   height: 360px;
   width: 700px;
   margin-left: 10%;
+}
+
+
+.textcenter{
+  text-align: left;
+  margin-left:140px;
+}
+
+.flexScroll{
+margin-left: 140px; 
 }
 
 }
