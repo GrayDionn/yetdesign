@@ -86,7 +86,7 @@ margin-right: 60px;
 #topborder{
   margin-top:50px;
   margin-left: -5px;
-  margin-bottom: -5px;
+  margin-bottom: -1px;
   width:100%;
   height: 19px;
 }
@@ -106,6 +106,9 @@ button img{
   padding-top: 80px;
   text-align: center;
   font-family: sans-serif;
+  max-width: 300px;
+    margin: 0 auto;
+    transition-duration: .3s;
 
 }
 
@@ -352,30 +355,37 @@ margin-left: 40px;
   margin-right: 15px;
 }
 
-@media screen and (min-width:800px){
-  .mainbanner{
-    display:flex;
+@media screen and (min-width:700px){
+  .orangeblock{
+    width:1000px;
+    float:right;
+    height:360px;
+background: linear-gradient(90deg, rgba(238,174,202,0) 0%, rgba(230,130,47,0.7483368347338936) 48%, rgba(230,130,47,1) 75%);
+    position:absolute;
+    top:0;
+    right:000px;
   }
+.mainbanner{
+  position:relative;
+}
 
-  .mainbanner p{
-        text-align: left;
-        padding-left: 00px;
-  }
+.textArea{
+  position:absolute;
+  top:0px;
+  right:20%;
+  float:right;
+  transition-duration: .3s;
+  z-index: 7;
+}
 
-  .mainbanner #whitelogo{
-    display:inline-block;
-    width: 600px;
-    height: 360px;
-    margin-left: 60px;
-    margin-top: 4px;
-        margin-right: 10%;
-  }
+#whitelogo{
+  z-index: 2;
+  display: inline-block;
+  height: 360px;
+  width: 700px;
+  margin-left: 10%;
 
-  .textArea{
-        margin-left: -20%;
-
-    width: 330px;
-  }
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -386,12 +396,13 @@ margin-left: 40px;
     float: right;
     display: block;
   }
+
+  .textArea button{
+  }
 }
 
 @media screen and (min-width:950px){
-.textArea{
-  margin-left: 00px;
-}
+
   /* .mainSectionTwo{
     display:flex;
 
