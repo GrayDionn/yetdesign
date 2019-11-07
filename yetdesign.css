@@ -230,6 +230,13 @@ padding-right: 50px;
   -webkit-box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.44);
 -moz-box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.44);
 box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.44);
+transition-duration: .3s;
+
+}
+
+.scrollBox:hover{
+  background-color: #f6f6f6;
+  transition-duration: .3s;
 }
 
 .flexScroll{
