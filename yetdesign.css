@@ -381,6 +381,10 @@ margin-left: 40px;
   margin-right: 15px;
 }
 
+.redlogo{
+  display:none;
+}
+
 @media screen and (min-width:700px){
   .orangeblock{
     width:1000px;
@@ -432,13 +436,34 @@ padding-right: 20px;
   margin-left:140px;
 }
 
-.flexScroll{
-margin-left: 140px; 
-}
-
 }
 
 @media screen and (min-width:900px){
+
+  .flexfooter{
+    margin-left:100px;
+    margin-right:100px;
+  }
+
+  .flexScroll{
+  margin-left: 140px;
+  }
+
+  .redlogo{
+    display:inline-block;
+    margin-top:100px;
+    margin-right: 20px;
+  }
+
+.mainSectionFour{
+  display:flex;
+  align-items: flex-start;
+  margin-left: 140px;
+  margin-top:100px;
+}
+  .newssection{
+max-width: 510px;
+  }
 
   .mainSectionTwo{
     display:flex;
