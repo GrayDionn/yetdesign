@@ -77,6 +77,9 @@ margin-right: 60px;
   height:360px;
   background-color: #E6822F;
   margin-top: -5px;
+  -webkit-box-shadow: 2px 3px 44px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 44px -26px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 44px -26px rgba(0,0,0,0.75);
 }
 
 
@@ -164,15 +167,15 @@ padding-right: 50px;
 .tealHeader{
   color: #1FA591;
   text-align: center;
-  font-family:  "Helvetica Neue", sans-serif;
-  font-size:40px;
+  font-family:  "HelveticaNeue-Light", sans-serif;
+  font-size:60px;
   font-weight: 500;
   margin-top: 100px;
 }
 
 .tealHeaderSmall{
   color: #1FA591;
-  font-family:  "Helvetica Neue", sans-serif;
+  font-family:  "HelveticaNeue-Light", sans-serif;
   font-size:20px;
   font-weight: 500;
   margin-top: 60px;
@@ -386,6 +389,9 @@ margin-left: 40px;
 }
 
 @media screen and (min-width:700px){
+  .header img {
+    margin-left:120px;
+  }
   .orangeblock{
     width:1000px;
     float:right;
@@ -453,6 +459,7 @@ padding-right: 20px;
     display:inline-block;
     margin-top:100px;
     margin-right: 20px;
+        width: 210px;
   }
 
 .mainSectionFour{
@@ -467,7 +474,8 @@ max-width: 510px;
 
   .mainSectionTwo{
     display:flex;
-    margin: 80px 90px 20px 140px;
+    margin: 80px 170px 20px 140px;
+
   }
 
   .blocktext{
