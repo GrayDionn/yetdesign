@@ -222,7 +222,7 @@ font-weight: 400;
 
 .firstcol{
   margin:0px 15px 0px 45px;
-   max-width: 400px;
+   max-width: 550px;
 }
 
 
@@ -252,6 +252,9 @@ transition-duration: .3s;
 .scrollBox:hover{
   background-color: #f6f6f6;
   transition-duration: .3s;
+  -webkit-box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.44);
+-moz-box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.44);
+box-shadow: 5px 10px 14px -9px rgba(0,0,0,0.14);
 }
 
 .flexScroll{
@@ -314,7 +317,6 @@ BOTTOM: 50PX;
 
 .flexScroll{
   margin-left: 5%;
-margin-right: 5%;
 }
 
 .flexScroll div{
@@ -403,6 +405,10 @@ margin-left: 40px;
 @media screen and (min-width:700px){
   .header img {
     margin-left:120px;
+  }
+  .flexScroll{
+    margin-left: 5%;
+  margin-right: 15%;
   }
   .orangeblock{
     width:1000px;
@@ -510,7 +516,7 @@ max-width: 510px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
   .topnav a{
   display: none;
   }
@@ -524,7 +530,7 @@ max-width: 510px;
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;

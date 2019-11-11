@@ -7,7 +7,7 @@
 
 <div class="header">
 
-  <img src="Images/yetlogo.png" alt="Yet Analytics Logo" >
+  <img src="Images/yetlogo.png" alt="Yet Analytics Logo" id="yetlogo" >
 
   <div class="topnav" id="myTopnav">
     <a href="#home" >Home</a>
@@ -15,7 +15,7 @@
     <a href="#contact">Solutions</a>
     <a href="#about">Research</a>
     <a href="#about">Experience API</a>
-    <a href="#about">Team</a>
+    <a href="">Team</a>
     <a href="#about">News</a>
     <a href="#about">Login</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -41,6 +41,7 @@
   </div>
 </div>
 
+<!-- You have to loop through them all -->
 <div class = "mainSectionTwo">
 <div class="blocktext">
 <p class="tealHeader">What we do...</p>
@@ -194,6 +195,7 @@ Baltimore, MD 21202 USA</p>
 
 
 
+
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -203,6 +205,21 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+
+var x = document.getElementsByClassName('tealHeader');
+var i;
+
+for (i = 0; i < x.length; i++) {
+  console.log(i);
+  x[i].addEventListener("click", () => {
+  console.log("Hello");
+  });
+}
+
+window.addEventListener('scroll', function() {
+  console.log("Hello you scrolled");
+});
 
 </script>
 
