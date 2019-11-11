@@ -260,6 +260,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:50px;
   margin-left:20px;
+      margin-right: 30px;
 }
 
 .purpleAboutBar{
@@ -267,6 +268,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:30px;
   margin-left:20px;
+      margin-right: 30px;
 
 }
 
@@ -275,7 +277,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:50px;
   margin-left:20px;
-
+    margin-right: 30px;
 }
 
 .pinkAboutBar{
@@ -283,7 +285,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:50px;
   margin-left:20px;
-
+    margin-right: 30px;
 }
 
 .tealAboutBar{
@@ -291,7 +293,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:50px;
   margin-left:20px;
-
+    margin-right: 30px;
 }
 
 .hpinkAboutBar{
@@ -299,7 +301,7 @@ html, body {
   PADDING-LEFT: 10PX;
   margin-bottom:50px;
   margin-left:20px;
-
+    margin-right: 30px;
 
 }
 
@@ -559,6 +561,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 .aboutBars{
   margin-left: 100px;
   margin-top: 100px;
+      margin-right: 100px;
 }
 
 .flex{
@@ -627,7 +630,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     margin-left: 120px;
     margin-top: 100px;
   }
-  
+
   .margin-left{
     margin-left: 140px;
     margin-right:100px;
