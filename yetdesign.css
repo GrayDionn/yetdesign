@@ -232,7 +232,8 @@ html, body {
 }
 
 .aboutBars{
-  margin-left:10%;
+  margin-left:20px;
+  margin-top:100px;
   display:flex;
   align-items: flex-start;
   flex-wrap:wrap;
@@ -556,7 +557,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   }
 
 .aboutBars{
-  margin-left: 140px;
+  margin-left: 100px;
   margin-top: 100px;
 }
 
@@ -622,8 +623,14 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     padding-left:140px;
   }
 
+  .aboutBars{
+    margin-left: 120px;
+    margin-top: 100px;
+  }
+  
   .margin-left{
     margin-left: 140px;
+    margin-right:100px;
   }
   .textcenter {
     text-align: left;
