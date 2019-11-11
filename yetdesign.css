@@ -232,7 +232,10 @@ html, body {
 }
 
 .aboutBars{
-  margin:10%;
+  margin-left:10%;
+  display:flex;
+  align-items: flex-start;
+  flex-wrap:wrap;
 }
 
 .thinTeal{
@@ -248,36 +251,55 @@ html, body {
   font-family: "Gillsans-Light", sans-serif;
   font-size: 13px;
   font-weight: 200;
+  line-height: 20px;
 }
 
 .yellowAboutBar{
   BORDER-LEFT: #E7A62E SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:50px;
+  margin-left:20px;
 }
 
 .purpleAboutBar{
   BORDER-LEFT: #862E9E SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:30px;
+  margin-left:20px;
+
 }
 
 .mauveAboutBar{
   BORDER-LEFT: #B6557F SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:50px;
+  margin-left:20px;
+
 }
 
 .pinkAboutBar{
   BORDER-LEFT: #F4BCC4 SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:50px;
+  margin-left:20px;
+
 }
 
 .tealAboutBar{
   BORDER-LEFT: #119995 SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:50px;
+  margin-left:20px;
+
 }
 
 .hpinkAboutBar{
   BORDER-LEFT: #FF488B SOLID 7PX;
   PADDING-LEFT: 10PX;
+  margin-bottom:50px;
+  margin-left:20px;
+
+
 }
 
 .largethintext{
@@ -533,17 +555,21 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     margin-left: 120px;
   }
 
-.headerBar{
-  padding-left:140px;
+.aboutBars{
+  margin-left: 140px;
+  margin-top: 100px;
 }
+
+.flex{
+  display:flex;
+}
+
   .flexScroll {
     margin-left: 5%;
     margin-right: 15%;
   }
 
-.flex{
-  display:flex;
-}
+
   .orangeblock {
     width: 1000px;
     float: right;
@@ -591,6 +617,10 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (min-width:900px) {
+
+  .headerBar{
+    padding-left:140px;
+  }
 
   .margin-left{
     margin-left: 140px;
