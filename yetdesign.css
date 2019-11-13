@@ -6,6 +6,41 @@ html, body {
   overflow-x: hidden;
 }
 
+.display{
+  display:none;
+}
+
+#fname{
+  border:none;
+  border-bottom: 1px solid #EC603E;
+  width:100%;
+}
+
+.inputtitle{
+  font-family: "gillsans", sans-serif;
+    color: #1FA591;
+}
+
+.burgundybutton{
+  border-radius: 2px;
+  background-color:#881D51;
+  color:white;
+  font-family: "gillsans", sans-serif;
+  padding: 10px 31px;
+    margin-top: 6px;
+    float: right;
+    border: none;
+}
+
+#message{
+  border: 1px solid #EC603E;
+  width:100%;
+}
+
+.contact{
+  width: 90%;
+}
+
 .redbar{
   margin: 50px 10%;
   height: 10px;
@@ -96,7 +131,6 @@ html, body {
 }
 
 .headerBar {
-  background-color: #DB3762;
   padding: 20px;
   -webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
@@ -570,6 +604,15 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     margin-left: 120px;
   }
 
+
+  .imageadjust{
+    max-width:590px;
+    margin-top: 100px;
+  }
+
+.display{
+  display:inline;
+}
 .aboutBars{
   margin-left: 100px;
   margin-top: 100px;
