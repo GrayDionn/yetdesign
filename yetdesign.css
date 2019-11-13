@@ -630,23 +630,18 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     width: 700px;
     margin-left: 10%;
   }
-}
-
-@media screen and (min-width:900px) {
 
   .headerBar{
     display:flex;
     position:relative;
     padding-left:140px;
   }
-
-.headerBar Img{
-  display:inline-block;
-  height:215px;
-  position:absolute;
-  top:0px;
-  right:0px;
 }
+
+@media screen and (min-width:900px) {
+
+
+
   .aboutBars{
     margin-left: 120px;
     margin-top: 100px;
@@ -713,10 +708,21 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   }
 }
 
+@media screen and (min-width:950px){
+  .headerBar Img{
+    display:inline-block;
+    height:215px;
+    position:absolute;
+    top:0px;
+    right:0px;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .topnav a {
     display: none;
   }
+
 
   .topnav a.icon {
     float: right;
