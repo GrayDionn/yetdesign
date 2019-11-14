@@ -6,65 +6,66 @@ html, body {
   overflow-x: hidden;
 }
 
-.display{
-  display:none;
+.display {
+  display: none;
 }
 
-.messagesection{
+.messagesection {
   margin-left: 40px;
-margin-right: 40px;
+  margin-right: 40px;
 }
 
-#fname{
-  border:none;
+#fname {
+  border: none;
   border-bottom: 1px solid #EC603E;
-  width:100%;
+  width: 100%;
 }
 
-.sidespacing{
+.sidespacing {
   padding: 0px 40px;
 }
 
-.inputtitle{
+.inputtitle {
   font-family: "gillsans", sans-serif;
-    color: #1FA591;
+  color: #1FA591;
 }
 
-.burgundybutton{
+.burgundybutton {
   border-radius: 2px;
-  background-color:#881D51;
-  color:white;
+  background-color: #881D51;
+  color: white;
   font-family: "gillsans", sans-serif;
   padding: 10px 31px;
-    margin-top: 6px;
-    float: right;
-    border: none;
+  margin-top: 6px;
+  float: right;
+  border: none;
 }
 
-#message{
+#message {
   border: 1px solid #EC603E;
-  width:100%;
+  width: 100%;
 }
 
-.contact{
+.contact {
   width: 90%;
 }
 
-.redbar{
+.redbar {
   margin: 50px 10%;
   height: 10px;
   background-color: red;
 }
 
-.tealbar{
+.tealbar {
   margin: 50px 10%;
   height: 10px;
   background-color: #119995;
 }
 
-.centertext{
-  text-align:  center;
+.centertext {
+  text-align: center;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -146,8 +147,8 @@ margin-right: 40px;
   box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
-.headerBar img{
-  display:none;
+.headerBar img {
+  display: none;
 }
 
 .headerWhiteText {
@@ -157,7 +158,7 @@ margin-right: 40px;
   margin-bottom: 0px;
 }
 
-.headerText{
+.headerText {
   z-index: 2;
 }
 
@@ -233,7 +234,6 @@ margin-right: 40px;
   font-weight: 100;
 }
 
-
 .textArea button {
   padding: 10px;
   background-color: red;
@@ -284,23 +284,23 @@ margin-right: 40px;
   line-height: 30px;
 }
 
-.aboutBars{
-  margin-left:20px;
-  margin-top:100px;
-  display:flex;
+.aboutBars {
+  margin-left: 20px;
+  margin-top: 100px;
+  display: flex;
   align-items: flex-start;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.thinTeal{
+.thinTeal {
   color: #1FA591;
   font-family: "Gillsans-Light", sans-serif;
   font-size: 25px;
   font-weight: 200;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.nameList{
+.nameList {
   color: #3E3E3E;
   font-family: "Gillsans-Light", sans-serif;
   font-size: 13px;
@@ -308,100 +308,98 @@ margin-right: 40px;
   line-height: 20px;
 }
 
-.yellowAboutBar{
+.yellowAboutBar {
   BORDER-LEFT: #E7A62E SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:50px;
-  margin-left:20px;
-      margin-right: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.purpleAboutBar{
+.purpleAboutBar {
   BORDER-LEFT: #862E9E SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:30px;
-  margin-left:20px;
-      margin-right: 30px;
-
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.mauveAboutBar{
+.mauveAboutBar {
   BORDER-LEFT: #B6557F SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:50px;
-  margin-left:20px;
-    margin-right: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.pinkAboutBar{
+.pinkAboutBar {
   BORDER-LEFT: #F4BCC4 SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:50px;
-  margin-left:20px;
-    margin-right: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.tealAboutBar{
+.tealAboutBar {
   BORDER-LEFT: #119995 SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:50px;
-  margin-left:20px;
-    margin-right: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.hpinkAboutBar{
+.hpinkAboutBar {
   BORDER-LEFT: #FF488B SOLID 7PX;
   PADDING-LEFT: 10PX;
-  margin-bottom:50px;
-  margin-left:20px;
-    margin-right: 30px;
-
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
-.largethintext{
+.largethintext {
   color: #3E3E3E;
   font-family: "Gillsans-Light", sans-serif;
   font-size: 28px;
   font-weight: 200;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.mediumthintext{
+.mediumthintext {
   color: #3E3E3E;
   font-family: "Gillsans-Light", sans-serif;
   font-size: 20px;
   font-weight: 200;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.redbutton{
+.redbutton {
   width: 160px;
-background-color: red;
-border-radius: 4px;
-color: white;
-font-family: "Gillsans-Light", sans-serif;
-margin: 5px;
-padding: 8px;
-font-size: 16px;
-border:none;
--webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  font-family: "Gillsans-Light", sans-serif;
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  -webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
-.redbutton2{
-width: 160px;
-background-color: #870101;
-border-radius: 4px;
-border:none;
-color: white;
-font-family: "Gillsans-Light", sans-serif;
-margin: 5px;
-padding: 8px;
-font-size: 16px;
--webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+.redbutton2 {
+  width: 160px;
+  background-color: #870101;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-family: "Gillsans-Light", sans-serif;
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  -webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
 .commonText2 {
@@ -603,73 +601,77 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   display: none;
 }
 
-#staycenter{
+#staycenter {
   text-align: center;
 }
+
 @media screen and (min-width:700px) {
-
-.contactsection{
-  margin-right:20%;
-}
-.contactl{
-  width:50%;
-}
-
-.messagesection{
-  width:60%;
-  margin-top:190px;
-  margin-left:60px;
-}
-
-.messagesection button{
-  display:block;
-}
-
-  .messagesection #message{
-    width:100%;
-    display:block;
-
+  .contactsection {
+    margin-right: 20%;
   }
+
+  .margin1{
+    margin-right:90px;
+  }
+
+  .contactl {
+    width: 50%;
+  }
+
+  .messagesection {
+    width: 60%;
+    margin-top: 190px;
+    margin-left: 60px;
+  }
+
+  .messagesection button {
+    display: block;
+  }
+
+  .messagesection #message {
+    width: 100%;
+    display: block;
+  }
+
   .header img {
     margin-left: 120px;
   }
 
-  .margintop{
-    margin-top:5%;
+  .margintop {
+    margin-top: 5%;
   }
 
-.marginleft{
-  margin-left: 50px;
-}
-
-  .marginadjust{
-    margin-left:140px;
+  .marginleft {
+    margin-left: 50px;
   }
 
+  .marginadjust {
+    margin-left: 140px;
+  }
 
-  .imageadjust{
-    max-width:440px;
+  .imageadjust {
+    max-width: 440px;
     margin-top: 100px;
   }
 
-.display{
-  display:inline;
-}
-.aboutBars{
-  margin-left: 100px;
-  margin-top: 100px;
-      margin-right: 100px;
-}
+  .display {
+    display: inline;
+  }
 
-.flex{
-  display:flex;
-}
+  .aboutBars {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+
+  .flex {
+    display: flex;
+  }
 
   .flexScroll {
     margin-left: 5%;
     margin-right: 15%;
   }
-
 
   .orangeblock {
     width: 1000px;
@@ -716,26 +718,24 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     margin-left: 10%;
   }
 
-  .headerBar{
-    display:flex;
-    position:relative;
-    padding-left:140px;
+  .headerBar {
+    display: flex;
+    position: relative;
+    padding-left: 140px;
   }
 }
 
 @media screen and (min-width:900px) {
-
-
-
-  .aboutBars{
+  .aboutBars {
     margin-left: 120px;
     margin-top: 100px;
   }
 
-  .margin-left{
+  .margin-left {
     margin-left: 140px;
-    margin-right:100px;
+    margin-right: 100px;
   }
+
   .textcenter {
     text-align: left;
     margin-left: 140px;
@@ -782,7 +782,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     width: 80%;
   }
 
-  .tealHeader, .redDetailText,  {
+  .tealHeader, .redDetailText, {
     text-align: left;
     margin-left: 0px;
   }
@@ -793,13 +793,13 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   }
 }
 
-@media screen and (min-width:950px){
-  .headerBar Img{
-    display:inline-block;
-    height:215px;
-    position:absolute;
-    top:0px;
-    right:0px;
+@media screen and (min-width:950px) {
+  .headerBar Img {
+    display: inline-block;
+    height: 215px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
 }
 
@@ -807,7 +807,6 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   .topnav a {
     display: none;
   }
-
 
   .topnav a.icon {
     float: right;
