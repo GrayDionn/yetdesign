@@ -284,6 +284,16 @@ html, body {
   line-height: 30px;
 }
 
+.commonText2 {
+  font-family: "HelveticaNeue-Light", sans-serif;
+      font-size: 21px;
+      font-weight: 100;
+      color: #5b5b5b;
+      line-height: 30px;
+      margin: 0px 30px;
+      display: inline;
+}
+
 .aboutBars {
   margin-left: 20px;
   margin-top: 100px;
@@ -402,14 +412,7 @@ html, body {
   box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
-.commonText2 {
-  font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  color: #3E3E3E;
-  line-height: 20px;
-  margin: 0px 30px;
-  display: inline;
-}
+
 
 .pinkDetailText {
   display: inline;
@@ -607,7 +610,7 @@ html, body {
 
 @media screen and (min-width:700px) {
   .contactsection {
-    margin-right: 20%;
+    margin-right: 5%;
   }
 
   .margin1{
@@ -642,7 +645,7 @@ html, body {
   }
 
   .marginleft {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 
   .marginadjust {
@@ -729,6 +732,10 @@ html, body {
   .aboutBars {
     margin-left: 120px;
     margin-top: 100px;
+  }
+
+  .contactsection {
+    margin-right: 20%;
   }
 
   .margin-left {
