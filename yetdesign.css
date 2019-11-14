@@ -604,6 +604,10 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     margin-left: 120px;
   }
 
+  .marginadjust{
+    margin-left:140px;
+  }
+
 
   .imageadjust{
     max-width:590px;
