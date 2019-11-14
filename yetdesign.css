@@ -10,6 +10,11 @@ html, body {
   display:none;
 }
 
+.messagesection{
+  margin-left: 40px;
+margin-right: 40px;
+}
+
 #fname{
   border:none;
   border-bottom: 1px solid #EC603E;
