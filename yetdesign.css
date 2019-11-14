@@ -603,8 +603,17 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 @media screen and (min-width:700px) {
 
+.contactsection{
+  margin-right:20%;
+}
+.contactl{
+  width:50%;
+}
+
 .messagesection{
   width:60%;
+  margin-top:190px;
+  margin-left:60px;
 }
 
 .messagesection button{
@@ -612,7 +621,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
   .messagesection #message{
-    width:50%;
+    width:100%;
     display:block;
 
   }
