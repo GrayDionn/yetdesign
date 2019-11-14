@@ -16,6 +16,10 @@ html, body {
   width:100%;
 }
 
+.sidespacing{
+  padding: 0px 40px;
+}
+
 .inputtitle{
   font-family: "gillsans", sans-serif;
     color: #1FA591;
@@ -247,7 +251,6 @@ html, body {
 
 .tealHeader {
   color: #1FA591;
-  text-align: center;
   font-family: "HelveticaNeue-Light", sans-serif;
   font-size: 45px;
   font-weight: 500;
@@ -273,8 +276,7 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 13px;
   color: #3E3E3E;
-  line-height: 20px;
-  margin: 0px 40px;
+  line-height: 30px;
 }
 
 .aboutBars{
@@ -600,9 +602,31 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   text-align: center;
 }
 @media screen and (min-width:700px) {
+
+.messagesection{
+  width:60%;
+}
+
+.messagesection button{
+  display:block;
+}
+
+  .messagesection #message{
+    width:50%;
+    display:block;
+
+  }
   .header img {
     margin-left: 120px;
   }
+
+  .margintop{
+    margin-top:5%;
+  }
+
+.marginleft{
+  margin-left: 50px;
+}
 
   .marginadjust{
     margin-left:140px;
@@ -610,7 +634,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 
 
   .imageadjust{
-    max-width:590px;
+    max-width:440px;
     margin-top: 100px;
   }
 
@@ -744,7 +768,7 @@ box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
     width: 80%;
   }
 
-  .tealHeader, .redDetailText, .commonText {
+  .tealHeader, .redDetailText,  {
     text-align: left;
     margin-left: 0px;
   }
