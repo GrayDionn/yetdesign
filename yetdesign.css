@@ -11,8 +11,8 @@ html, body {
 }
 
 .test{
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 40px;
+  padding-right:40px;
 }
 
 .messagesection {
@@ -290,7 +290,7 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
   color: #3E3E3E;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .commonText2 {
@@ -642,7 +642,7 @@ html, body {
 
 .icondiv{
   max-width: 230px;
-  margin-right: 30px;
+  margin-right: 80px;
   margin-left:30px;
       margin-bottom: 50px;
 
@@ -663,6 +663,13 @@ html, body {
 }
 
 @media screen and (min-width:700px) {
+
+  .flex2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap:
+  }
+
   .contactsection {
     margin-right: 5%;
   }
