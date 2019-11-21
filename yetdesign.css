@@ -10,6 +10,11 @@ html, body {
   display: none;
 }
 
+.test{
+  padding-left: 20px;
+  padding-right:20px;
+}
+
 .messagesection {
   margin-left: 40px;
   margin-right: 40px;
@@ -279,7 +284,7 @@ html, body {
 
 .commonText {
   font-family: Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: #3E3E3E;
   line-height: 30px;
 }
@@ -412,7 +417,25 @@ html, body {
   box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
 }
 
-
+.pinkButton{
+  width: 220px;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: #EC5277;
+    color: white;
+    font-size: 13px;
+    -webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+}
+.burgundyDetailText{
+  display: inline;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  color: #881D51;
+  font-weight: 600;
+  text-decoration: none;
+}
 
 .pinkDetailText {
   display: inline;
@@ -608,9 +631,19 @@ html, body {
   text-align: center;
 }
 
+.icons{
+  width:150px;
+}
+
 @media screen and (min-width:700px) {
   .contactsection {
     margin-right: 5%;
+  }
+
+  .test{
+    margin-left: 140px;
+    margin-right:40px;
+    padding-left:0px;
   }
 
   .marginright{
@@ -697,7 +730,7 @@ html, body {
   .textArea {
     position: absolute;
     top: 0px;
-    right: 5%;
+    right: 25%;
     float: right;
     transition-duration: .3s;
     z-index: 7;

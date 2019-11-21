@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="yetdesign.css">
+</head>
+
+<body>
+
+  <div class="header">
+
+    <img src="Images/yetlogo.png" alt="Yet Analytics Logo" id="yetlogo">
+
+    <div class="topnav" id="myTopnav">
+      <a href="yetdesign.html">Home</a>
+      <a href="#news">Products</a>
+      <a href="#contact">Solutions</a>
+      <a href="#about">Research</a>
+      <a href="#about">Experience API</a>
+      <a href="yetabout.html">Team</a>
+      <a href="#about">News</a>
+      <a href="yetcontact.html">Contact</a>
+      <a href="#about">Login</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="headerBar" style="background-color: #EC603E;">
+    <div class="headerText">
+      <p class="headerWhiteText"> Products </p>
+      <p class="headerdetailText"> Our software products are built to support interoperability and insight. That's why Yet Analytics is recognized throughout the learning technologies community for our expertise in xAPI and for our commitment to
+        standards-driven software development.</p>
+    </div>
+  </div>
+
+  <div style="align-items:center;" class="flex test">
+    <div style="max-width:400px;">
+      <p class="tealHeader">Commons LXP</p>
+      <p class="burgundyDetailText"> Purpose-Built for xAPI</p>
+      <p class="commonText">
+        Every SaaS Pro LRS ships with an xAPI dashboard featuring Yet's award-winning automated and interactive data visualization.
+        <br><br>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem purus, tempus at sagittis sed, tincidunt eu diam. Fusce ac vehicula nisl, in scelerisque nisl.
+        <br><br>
+
+        Proin ut vehicula libero, et varius metus. Sed ut dictum felis, sed dapibus ex. Vestibulum consequat et urna non scelerisque. </p>
+
+      <p style="color: #119995; font-family: Gillsans-light, HelveticaNeue-Light, sans-serif;">What Can We Help You With Today</p>
+
+      <button class="pinkButton">Let us know how we can help</button>
+    </div>
+
+    <div>
+      <img src="images/chartlayered.png" class="display imagewidth" style="max-width:400px;margin-top: 100px; width:100%; margin-right:30px; margin-left: 100px;">
+    </div>
+  </div>
+
+  <div class="redbar"> </div>
+
+<div class="test">
+  <p class="tealHeader">Componets are modular and<br>
+available separately</p>
+<div class="flex">
+
+<div>
+  <img src="Images/bubbles.png" class="icons"> </img>
+  <p> Content and scheduling interface and
+learning record provider </p>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem purus, tempus at sagittis sed, tincidunt eu diam.</p>
+  <p> Coming Soon!
+Contact us for custom implementations</p>
+</div>
+
+<div>
+  <img src="Images/attended.png" class="icons"> </img>
+<p>Infinitely scalable on AWS or Azure</p>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem purus, tempus at sagittis sed, tincidunt eu diam.</p>
+  <p> Contact us to discuss pricing</p>
+</div>
+
+<div>
+  <img src="Images/gears.png" class="icons"> </img>
+  <p>Learning analytics dashboards and Learning record consumers</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem purus, tempus at sagittis sed, tincidunt eu diam.</p>
+    <p> Coming Soon!
+  Contact us for custom implementations</p>
+</div>
+
+</div>
+</div>
+
+
+
+  <div class="footer">
+    <img src="Images/bottomborder.png" id="footerborder">
+
+    <div class="flexfooter">
+      <div>
+        <img src="Images/whiteyetlogo.png" class="footericon">
+        <p class="footertext">Yet Analytics, Inc. is a venture-backed startup with headquarters in Baltimore, Maryland. We are a small business and build everything in-house and on-shore.</p>
+        <br>
+        <p class="footertext">Made with ♥ in Baltimore. <br>
+          © 2014-2019 Yet Analytics, Inc</p>
+      </div>
+
+      <div>
+        <p class="lrgfootertext"> Get in Touch </p>
+        <p class="footertext"> We are located at:<br>
+          201 East Baltimore Street, Suite 630,<br>
+          Baltimore, MD 21202 USA</p>
+        <div class="footericons">
+          <a href=""><img src="Images/google.png"></a>
+          <a href=""><img src="Images/linkedin.png"></a>
+          <a href=""><img src="Images/twitter.png"></a>
+          <a href=""><img src="Images/facebook.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footerlinks">
+      <div class="leftfooterdiv">
+        <a href="#home" class="footertext">Home</a>
+        <a href="#home" class="footertext">About</a>
+        <a href="#home" class="footertext">Media Coverage</a>
+        <a href="#home" class="footertext">Contact Us </a>
+      </div>
+      <div class="rightfooterdiv">
+        <a href="#home" class="footertext">Project DAVE</a>
+        <a href="#home" class="footertext">tos + Privacy Policy</a>
+        <a href="#home" class="footertext">Helpdesk</a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+
+    var x = document.getElementsByClassName('tealHeader');
+    var i;
+
+    for (i = 0; i < x.length; i++) {
+      console.log(i);
+      x[i].addEventListener("click", () => {
+        console.log("Hello");
+      });
+    }
+
+    window.addEventListener('scroll', function() {
+      console.log("Hello you scrolled");
+    });
+  </script>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</body>
+
+</html>
