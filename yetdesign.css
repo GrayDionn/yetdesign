@@ -17,10 +17,13 @@ html, body {
   margin: 30px;
 }
 
-.display {
+.redlogo {
   display: none;
 }
 
+#margintop{
+  margin-top:200px;
+}
 
 /* -------/////--------- */
 
@@ -206,9 +209,11 @@ html, body {
 }
 /* -----------/////----------- */
 
+.mainSectionTwo{
+  position:relative;
+}
 .mainSectionTwo img{
-  width: 80%;
-  float: right;
+  display:none;
 }
 /* -----------/////----------- */
 
@@ -387,14 +392,44 @@ html, body {
 }
 
 @media screen and (min-width:700px) {
+  .whiteblock {
+      height: 400px;
+      width: 890px;
+      /* right: 274px; */
+      position: absolute;
+      z-index: 0;
+      background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0.8701855742296919) 59%, rgba(255,255,255,0) 86%);
+    }
 
+  #mobilemargin{
+    margin-left: 180px;
+    margin-right: 270px;  }
+.margintop{
+  padding-top:130px;
+}
   .mainbanner {
     position: relative;
   }
 
-  .display {
-    display: inline;
+  .blocktext{
+    max-width: 400px;
+    z-index: 1;
   }
+
+  .mainSectionTwo {
+    display: flex;
+
+    }
+
+    .mainSectionTwo img {
+      z-index: -3;
+      position: absolute;
+      display: inline-block;
+      right: -80px;
+      /* float: right; */
+      margin-bottom: 100px;
+    }
+
 
   .textArea {
     position: absolute;
@@ -422,7 +457,7 @@ html, body {
   #whitelogo {
     z-index: 2;
     display: inline-block;
-    height: 360px;
+    height: 460px;
     width: 700px;
     margin-left: 10%;
   }
@@ -435,6 +470,8 @@ html, body {
     margin-left: 10%;
   }
 
+
+
   .orangeblock {
     width: 1000px;
     float: right;
@@ -446,12 +483,26 @@ html, body {
   }
 }
 @media screen and (min-width:900px){
-.mainSectionTwo {
-  display: flex;
+  .mainSectionFour {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
   }
 
+  .redlogo {
+      display: inline;
+      width:80%;
+      margin-left:100px;
+      margin-top:160px;
+    }
+
   .blocktext {
-    width: 80%;
+    width: 70%;
+  }
+
+  .newssection{
+    display:flex;
+
   }
 }
 
