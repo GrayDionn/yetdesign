@@ -50,6 +50,10 @@ html, body {
   background-color: #119995;
 }
 
+.display {
+  display: none;
+}
+
 /* -------/////--------- */
 
 /* Scrollbar */
@@ -562,6 +566,61 @@ border-radius: 12px;
   -webkit-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 3px 44px -26px rgba(0, 0, 0, 0.75);
+}
+
+.inputtitle {
+  font-family: "gillsans", sans-serif;
+  color: #1FA591;
+}
+#fname {
+  border: none;
+  border-bottom: 1px solid #EC603E;
+  width: 100%;
+}
+
+
+.messagesection #message {
+  width: 100%;
+  display: block;
+}
+
+#message {
+  border: 1px solid #EC603E;
+  width: 100%;
+}
+
+.burgundybutton {
+  border-radius: 2px;
+  background-color: #881D51;
+  color: white;
+  font-family: "gillsans", sans-serif;
+  padding: 10px 31px;
+  margin-top: 6px;
+  float: right;
+  border: none;
+}
+
+.textArea {
+  position: absolute;
+  top: 0px;
+  right: 25%;
+  float: right;
+  transition-duration: .3s;
+  z-index: 7;
+}
+
+.textArea p {
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textArea a {
+  font-size: 17px;
+}
+
+.textArea button {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width:700px) {
