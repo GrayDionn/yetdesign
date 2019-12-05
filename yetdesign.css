@@ -131,6 +131,7 @@ html, body {
 /* -----------/////----------- */
 .mainbanner {
   width: 100%;
+  position: relative;
   height: 360px;
   background-color: #E6822F;
   margin-top: -5px;
@@ -176,10 +177,10 @@ html, body {
 }
 
 .textArea {
-  padding-top: 80px;
   text-align: center;
   font-family: sans-serif;
   max-width: 300px;
+  padding-top:80px;
   margin: 0 auto;
   transition-duration: .3s;
 }
