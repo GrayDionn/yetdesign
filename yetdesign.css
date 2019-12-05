@@ -24,6 +24,12 @@ ul {
   list-style-image: url(Images/Oval.png);
 }
 
+.imageshadow{
+  -webkit-box-shadow: -1px 17px 18px -18px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 17px 18px -18px rgba(0,0,0,0.75);
+  box-shadow: -1px 17px 18px -18px rgba(0,0,0,0.75);
+}
+
 .commonTextBigger{
   font-family:"HelveticaNeue-Light", sans-serif;
   font-size: 20px;
@@ -63,7 +69,7 @@ ul {
 
 .orangebutton{
   background-color: #EC603E;
-    width: 360px;
+    width: 300px;
     font-size: 23px;
     color: white;
     padding: 20px 5px;
@@ -85,6 +91,10 @@ ul {
 .solutionsicons{
   width:250px;
   height:auto;
+}
+
+.researchicons{
+  width: 80%;
 }
 
 
@@ -606,6 +616,7 @@ border-radius: 12px;
 .inputtitle {
   font-family: "gillsans", sans-serif;
   color: #1FA591;
+  text-decoration: none;
 }
 #fname {
   border: none;
@@ -835,6 +846,12 @@ border-radius: 12px;
     top: 0px;
     right: -50px;
   }
+
+  .researchicons{
+    margin: 90px;
+    max-width: 310px;
+  }
+
   .messagesection{
     margin-left: 70px;
       margin-top: 110px;
