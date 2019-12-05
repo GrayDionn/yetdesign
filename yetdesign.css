@@ -13,6 +13,17 @@ html, body {
   line-height: 22px;
 }
 
+.commonTextLineHeight li{
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  color: #3E3E3E;
+  line-height: 29px;
+}
+
+ul {
+  list-style-image: url(Images/Oval.png);
+}
+
 .commonTextBigger{
   font-family:"HelveticaNeue-Light", sans-serif;
   font-size: 20px;
@@ -43,6 +54,23 @@ html, body {
  margin-right: 10%;
 }
 
+.orangebar {
+  height: 10px;
+  background-color: #EC603E;
+  margin-left: 10%;
+ margin-right: 10%;
+}
+
+.orangebutton{
+  background-color: #EC603E;
+    width: 360px;
+    font-size: 23px;
+    color: white;
+    padding: 20px 5px;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+
 .tealbar {
   margin-left: 10%;
  margin-right: 10%;
@@ -53,6 +81,12 @@ html, body {
 .display {
   display: none;
 }
+
+.solutionsicons{
+  width:250px;
+  height:auto;
+}
+
 
 /* -------/////--------- */
 
@@ -624,6 +658,15 @@ border-radius: 12px;
   margin-bottom: 20px;
 }
 
+.burgundyDetailText{
+  display: inline;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  color: #881D51;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 @media screen and (min-width:700px) {
 
 
@@ -709,6 +752,16 @@ border-radius: 12px;
     margin-left: 10%;
   }
 
+  .solutionsicons{
+    width:auto;
+    height:200px;
+    margin:0 auto;
+  }
+
+  .rightmargin{
+    margin-right:40px;
+  }
+
 .footer{
   padding: 0px 00px 70px 160px;
 }
@@ -789,12 +842,6 @@ border-radius: 12px;
   }
   .display {
     display: inline;
-  }
-  .whiteblock2{
-    height:500px;
-    width:500px;
-    color:yellow;
-    z-index: 2;
   }
   .flex{
     display:flex;
