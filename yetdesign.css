@@ -10,14 +10,14 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 17px;
   color: #3E3E3E;
-  line-height: 22px;
+  line-height: 27px;
 }
 
 .commonTextLineHeight li{
   font-family: Helvetica, sans-serif;
   font-size: 17px;
   color: #3E3E3E;
-  line-height: 29px;
+  line-height: 31px;
 }
 
 ul {
@@ -702,8 +702,8 @@ border-radius: 12px;
     }
 
   #mobilemargin{
-    margin-left: 180px;
-    margin-right: 200px;
+    margin-left: 280px;
+    margin-right: 140px;
   }
 .margintop{
   padding-top:100px;
