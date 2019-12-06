@@ -97,6 +97,14 @@ ul {
   width: 80%;
 }
 
+.redblock{
+background: linear-gradient(90deg, rgba(136,29,81,0.7354166666666666) 36%, rgba(136,29,81,0.38303571428571426) 59%, rgba(136,29,81,0) 75%);
+  width:760px;
+  height:300px;
+  position:absolute;
+  top:0px;
+  left:20%;
+}
 
 /* -------/////--------- */
 

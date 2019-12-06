@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="yetdesign.css">
+  <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body>
+
+  <div class="header">
+
+    <img src="Images/yetlogo.png" alt="Yet Analytics Logo" id="yetlogo">
+
+    <div class="topnav" id="myTopnav">
+      <a href="yetdesign.html">Home</a>
+      <a href="yetproducts.html">Products</a>
+      <a href="yetsolutions.html">Solutions</a>
+      <a href="yetresearch.html">Research</a>
+      <a href="#about">Experience API</a>
+      <a href="yetabout.html">Team</a>
+      <a href="#about">News</a>
+      <a href="yetcontact.html">Contact</a>
+      <a href="#about">Login</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="headerBar" style="background-color: #881D51; position:relative; overflow: hidden;">
+    <div class="headerText">
+      <p class="headerWhiteText"> DAVE </p>
+      <p class="headerdetailText">The Data Analytics and Visualization Environment for xAPI.</p>
+      <div class="redblock" style=" z-index:-1;"></div>
+        <img src="images/whitelogo2.png" style="height:355px; top:-120px; right:20%; z-index:-2;" >
+    </div>
+  </div>
+
+  <div id="mobilemargin" class="flex margintop">
+    <div class="marginright">
+      <p class="tealHeader"> DAVE </p>
+      <p class="tealHeaderSmall"> What is DAVE?</p>
+      <p class="inputtitle"> Dave Analytics and Visualization Environment</p>
+      <p class="commonText" style="max-width:400px;"> DAVE is a prototyping environment for domain-based data visualization. It's purpose-built for the learning and training space and Yet Analytics is building the specs and reference model for the Advanced Distributed Learning Initiative at the US Department of Defense.</p>
+    </div>
+
+    <div class="display" style="margin-left:40px;width:400px; text-align: center; align-self:center;">
+      <img src="images/dave.png" style="width:400px;">
+      <div class="orangebar"  style="margin-top:20px;"></div>
+    </div>
+  </div>
+
+  <div class="flex" id="mobilemargin">
+    <div class="textpadding">
+      <p class="tealHeaderSmall"> Making DAVE Actionable</p>
+      <p class="inputtitle"> Rational</p>
+      <p class="commonText" style="max-width: 500px">
+        There is a difference between collecting data and using it. Instructors, training managers, and executive decision makers could make better decisions, improve the speed and effectiveness of readiness, and improve learning outcomes if they could gain insight from the data collected through the Total Learning Architecture. But traditional data analytics and visualization software is neither purpose-built for the learning and training domain, nor is it built for non-specialists. Therefore getting an understanding of data insights is a cumbersome process. Either you need to deal with enterprise software, code, and spreadsheets, or you need to have a data scientist on call. In the best case scenario, you are spending most of your time munging data from one form to another.</p>
+    </div>
+
+    <div class="textpadding">
+      <p class="tealHeaderSmall"> Open Source</p>
+      <p class="inputtitle"> Vision</p>
+      <p class="commonText" style="max-width:500px;">
+        The solution is the Data Analytics and Visualization Environment (DAVE). DAVE is a framework for data analytics which provides the ability to prototype visualizations and reports for the learning and training domain. DAVE workbooks are designed for instructors and managers, but the DAVE framework is strong enough to meet the needs of data scientists. DAVE is built on technical specs developed by the Advanced Distributed Learning Initiative — and it will extend the capabilities of xAPI, xAPI Profiles, and the Total Learning Architecture into decision-making spaces. DAVE is 100% open source, adaptable, and cost effective — there are no licenses and there is no vendor lock-in. The workbooks can run in a web browser and all of the visualization code is standardized and exportable to any decision making, business intelligence, or reporting system.</p>
+    </div>
+
+  </div>
+
+
+
+  <div class="footer">
+    <div class="flexfooter">
+      <div>
+        <img src="Images/whiteyetlogo.png" class="footericon">
+        <p class="footertext">Yet Analytics, Inc. is a venture-backed startup with headquarters in Baltimore, Maryland. We are a small business and build everything in-house and on-shore.</p>
+        <br>
+        <p class="footertext">Made with ♥ in Baltimore. <br>
+          © 2014-2019 Yet Analytics, Inc</p>
+      </div>
+
+      <div>
+        <p class="lrgfootertext"> Get in Touch </p>
+        <p class="footertext"> We are located at:<br>
+          201 East Baltimore Street, Suite 630,<br>
+          Baltimore, MD 21202 USA</p>
+        <div class="footericons">
+          <a href=""><img src="Images/google.png"></a>
+          <a href=""><img src="Images/linkedin.png"></a>
+          <a href=""><img src="Images/twitter.png"></a>
+          <a href=""><img src="Images/facebook.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footerlinks">
+      <div class="leftfooterdiv">
+        <a href="#home" class="footertext">Home</a>
+        <a href="#home" class="footertext">About</a>
+        <a href="#home" class="footertext">Media Coverage</a>
+        <a href="#home" class="footertext">Contact Us </a>
+      </div>
+      <div class="rightfooterdiv">
+        <a href="#home" class="footertext">Project DAVE</a>
+        <a href="#home" class="footertext">tos + Privacy Policy</a>
+        <a href="#home" class="footertext">Helpdesk</a>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+
+    var x = document.getElementsByClassName('tealHeader');
+    var i;
+
+    for (i = 0; i < x.length; i++) {
+      console.log(i);
+      x[i].addEventListener("click", () => {
+        console.log("Hello");
+      });
+    }
+
+    window.addEventListener('scroll', function() {
+      console.log("Hello you scrolled");
+    });
+  </script>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</body>
+
+</html>
