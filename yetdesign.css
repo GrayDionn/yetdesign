@@ -27,12 +27,12 @@ html, body {
   opacity: .3;
 }
 
-.leftbottombox{
+/* .leftbottombox{
   height: 13px;
   width:70px;
   background-color:orange;
   display:inline-block;
-}
+} */
 .rightsidebox{
   height: 70px;
   width:13px;
@@ -47,7 +47,7 @@ html, body {
   background-color:orange;
   display:inline-block;
   max-width: 100px;
-  min-width:100px
+  min-width:37px
 }
 
 .rightbottombox{
@@ -70,7 +70,7 @@ html, body {
   margin-top:20px;
   font-size: 20px;
   display:inline;
-  left: 106px;
+  left: 46px;
 top: 45px;
 }
 .absolutebox{
@@ -765,7 +765,7 @@ border-radius: 12px;
 max-width: 500px;
 min-width: 100px;
 position: absolute;
-left: 296px;
+left: 239px;
   }
 }
 
