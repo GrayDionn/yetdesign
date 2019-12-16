@@ -24,6 +24,7 @@ html, body {
   height:70px;
   width:13px;
   background-color: orange;
+  opacity: .3;
 }
 
 .leftbottombox{
@@ -32,20 +33,45 @@ html, body {
   background-color:orange;
   display:inline-block;
 }
+.rightsidebox{
+  height: 70px;
+  width:13px;
+  background-color:orange;
+  display:inline-block;
+  Position: absolute;
+}
+
+.leftbottombox{
+  height: 13px;
+  width: 5%;
+  background-color:orange;
+  display:inline-block;
+  max-width: 100px;
+  min-width:100px
+}
 
 .rightbottombox{
   height: 13px;
-  width:70px;
+  width: 5%;
   background-color:orange;
-  display:none;
+  display:inline-block;
+  max-width: 100px;
+  min-width:100px;
+  position: absolute;
+    left: 230px;
 }
+
+
 
 .componentstext{
   color: #1FA591;
   font-family: "HelveticaNeue-Light", sans-serif;
+  position:absolute;
   margin-top:20px;
   font-size: 20px;
   display:inline;
+  left: 106px;
+top: 45px;
 }
 .absolutebox{
   position:absolute;
@@ -733,12 +759,22 @@ border-radius: 12px;
   text-decoration: none;
 }
 
+@media screen and (min-width:360px){
+  .rightbottombox{
+    width: 90%;
+max-width: 500px;
+min-width: 100px;
+position: absolute;
+left: 296px;
+  }
+}
+
 @media screen and (min-width: 350px){
-.rightbottombox{
+/* .rightbottombox{
   display:inline-block;
   width:100%;
   margin-right: 20%;
-}
+} */
 }
 
 @media screen and (min-width:700px) {
