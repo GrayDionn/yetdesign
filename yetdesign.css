@@ -27,12 +27,6 @@ html, body {
   opacity: .3;
 }
 
-/* .leftbottombox{
-  height: 13px;
-  width:70px;
-  background-color:orange;
-  display:inline-block;
-} */
 .rightsidebox{
   height: 70px;
   width:13px;
@@ -58,10 +52,8 @@ html, body {
   max-width: 100px;
   min-width:100px;
   position: absolute;
-    left: 230px;
+  left: 239px;
 }
-
-
 
 .componentstext{
   color: #1FA591;
@@ -71,8 +63,29 @@ html, body {
   font-size: 20px;
   display:inline;
   left: 46px;
-top: 45px;
+  top: 45px;
 }
+
+.gradientbox{
+  height:400px;
+  width:;
+background: linear-gradient(0deg, rgba(255,212,186,1) 29%, rgba(255,243,238,0.5704656862745099) 57%, rgba(255,255,255,0) 83%);
+border-radius: 30px;
+}
+
+div.productsflex{
+  overflow: auto;
+white-space: nowrap;
+}
+
+div.productsbox{
+  display:inline-block;
+  height:380px;
+  width:200px;
+  background-color:purple;
+  margin-right:50px;
+}
+
 .absolutebox{
   position:absolute;
   bottom: -18px;
