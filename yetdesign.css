@@ -66,24 +66,52 @@ html, body {
   top: 45px;
 }
 
-.gradientbox{
-  height:400px;
-  width:;
-background: linear-gradient(0deg, rgba(255,212,186,1) 29%, rgba(255,243,238,0.5704656862745099) 57%, rgba(255,255,255,0) 83%);
-border-radius: 30px;
-}
+
 
 div.productsflex{
   overflow: auto;
 white-space: nowrap;
+padding:10px;
+position:relative;
 }
 
-div.productsbox{
-  display:inline-block;
-  height:380px;
-  width:200px;
-  background-color:purple;
-  margin-right:50px;
+.scrollBox {
+  background-color: #fafafa;
+  position: relative;
+  margin-right: 20px;
+      margin-bottom: 20px;
+  width: 340px;
+  height: 420px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  transition-duration: .3s;
+}
+.gradientbox{
+padding-left:20px;
+  overflow: auto;
+  white-space: nowrap;
+  height:520px;
+background: linear-gradient(0deg, rgba(255,212,186,1) 29%, rgba(255,243,238,0.5704656862745099) 57%, rgba(255,255,255,0) 83%);
+border-radius: 30px;
+}
+
+.productsbox{
+  background-color: #fafafa;
+  position: relative;
+  margin-right: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  width: 340px;
+  height: 420px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
+  transition-duration: .3s;
 }
 
 .absolutebox{
@@ -419,6 +447,13 @@ padding:10px;
 border-radius: 12px;
 }
 
+
+
+.gradientbox div{
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
 .quotationMark {
   font-size: 180px;
   color: #1FA591;
@@ -473,9 +508,6 @@ border-radius: 12px;
   right:110px;
 }
 
-.flexScroll {
-  /* margin-left: 5%; */
-}
 
 .flexScroll div {
   display: inline-block;
