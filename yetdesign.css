@@ -13,6 +13,47 @@ html, body {
   line-height: 27px;
 }
 
+.commonTextLight {
+  font-family: "HelveticaNeue-Light", sans-serif;
+  font-size: 17px;
+  color: #3E3E3E;
+  line-height: 27px;
+}
+
+.leftsidebox{
+  height:70px;
+  width:13px;
+  background-color: orange;
+}
+
+.leftbottombox{
+  height: 13px;
+  width:70px;
+  background-color:orange;
+  display:inline-block;
+}
+
+.rightbottombox{
+  height: 13px;
+  width:70px;
+  background-color:orange;
+  display:none;
+}
+
+.componentstext{
+  color: #1FA591;
+  font-family: "HelveticaNeue-Light", sans-serif;
+  margin-top:20px;
+  font-size: 20px;
+  display:inline;
+}
+.absolutebox{
+  position:absolute;
+  bottom: -18px;
+  white-space: nowrap;
+
+}
+
 .commonTextLineHeight li{
   font-family: Helvetica, sans-serif;
   font-size: 17px;
@@ -281,6 +322,12 @@ background: linear-gradient(90deg, rgba(136,29,81,0.7354166666666666) 36%, rgba(
   color: #1FA591;
   font-family: "HelveticaNeue-Light", sans-serif;
   font-size: 45px;
+  font-weight: 500;
+}
+.tealHeaderLarge {
+  color: #1FA591;
+  font-family: "HelveticaNeue-Light", sans-serif;
+  font-size: 55px;
   font-weight: 500;
 }
 
@@ -684,6 +731,14 @@ border-radius: 12px;
   color: #881D51;
   font-weight: 600;
   text-decoration: none;
+}
+
+@media screen and (min-width: 350px){
+.rightbottombox{
+  display:inline-block;
+  width:100%;
+  margin-right: 20%;
+}
 }
 
 @media screen and (min-width:700px) {
