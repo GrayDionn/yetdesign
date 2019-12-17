@@ -90,21 +90,26 @@ position:relative;
   transition-duration: .3s;
 }
 .gradientbox{
-padding-left:20px;
+
   overflow: auto;
   white-space: nowrap;
-  height:520px;
+  height:546px;
 background: linear-gradient(0deg, rgba(255,212,186,1) 29%, rgba(255,243,238,0.5704656862745099) 57%, rgba(255,255,255,0) 83%);
 border-radius: 30px;
 }
 
 .productsbox{
+
+  padding-left:0px;
+  text-align: center;
   background-color: #fafafa;
   position: relative;
   margin-right: 20px;
       margin-top: 30px;
       margin-bottom: 20px;
-  width: 340px;
+      margin-left:20px;
+      margin-right:20px;
+  width: 300px;
   height: 420px;
   padding: 10px;
   border-radius: 10px;
@@ -112,6 +117,13 @@ border-radius: 30px;
   -moz-box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
   box-shadow: 5px 10px 14px -9px rgba(0, 0, 0, 0.44);
   transition-duration: .3s;
+}
+
+.tealHeaderMedium {
+  color: #1FA591;
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 30px;
+  margin:0px;
 }
 
 .absolutebox{
@@ -528,6 +540,13 @@ border-radius: 12px;
   margin-top: 60px;
 }
 
+.tealHeaderSmall2 {
+  color: #1FA591;
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 20px;
+      margin-top: -20px;
+}
+
 .pinkDetailText {
   display: inline;
   font-family: Helvetica, sans-serif;
@@ -798,7 +817,7 @@ border-radius: 12px;
 .burgundyDetailText{
   display: inline;
   font-family: Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: #881D51;
   font-weight: 600;
   text-decoration: none;
