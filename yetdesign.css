@@ -98,6 +98,16 @@ background: linear-gradient(180deg, rgba(255,212,186,0.562062324929972) 29%, rgb
 border-radius: 30px;
 }
 
+.contactbutton{
+  background-color: #1FA591;
+color: white;
+border: none;
+border-radius: 1px;
+height: 40px;
+font-size: 20px;
+width: 230px;
+}
+
 .productsbox{
 
   padding-left:0px;
